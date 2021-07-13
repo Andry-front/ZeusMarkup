@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const marketplaceStyle = '../styles/css/marketplace/marketplace.css';
+    const marketplaceStyle = './styles/css/marketplace/marketplace.css';
 
     const addStyle = (aFile) => {
         const head = window.document.getElementsByTagName('head')[0]
