@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const head = window.document.getElementsByTagName('head')[0]
         const style = window.document.createElement('link')
         style.href = aFile
-        style.rel = ''
         head.appendChild(style)
     }
     const renderPage = (page) => {
