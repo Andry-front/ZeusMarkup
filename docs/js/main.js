@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
     };
-    sliderProductPage();
+    // sliderProductPage();
 
     const tabsProductPage = () => {
         const tabsButton = [...document.querySelectorAll('.headline-panel button')];
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         })
     };
-    tabsProductPage();
+    // tabsProductPage();
 
     const modalProductPhoto = () => {
         const frontPhoto = document.querySelector('.photo-panel .front-image');
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(frontPhoto);
         })
     };
-    modalProductPhoto();
+    // modalProductPhoto();
 
 
     const boxActiveList = [...document.getElementsByClassName('box-event-active')];
@@ -244,5 +244,5 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         }
     };
-    buttonsAll(boxActiveList);
+    // buttonsAll(boxActiveList);
 })
