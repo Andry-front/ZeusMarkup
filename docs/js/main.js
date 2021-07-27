@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const marketplaceStyle = './styles/css/marketplace/marketplace.min.css';
-    const productPageStyle = './styles/css/product-page/product-page.min.css';
+    const marketplaceStyle = 'styles/css/marketplace/marketplace.min.css';
+    const productPageStyle = 'styles/css/product-page/product-page.min.css';
 
     const addStyle = (aFile) => {
         const head = window.document.getElementsByTagName('head')[0]
