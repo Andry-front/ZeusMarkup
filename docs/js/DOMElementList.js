@@ -896,7 +896,6 @@ const productListDOM = `<div class="product-list flex">
                             </div>
                         </div>
                     </div>
-                    
                     <div class="product-list_elem-wrapper" data-id="4362">
                         <div class="product-list_elem">
                             <div class="box-top">
