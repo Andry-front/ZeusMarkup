@@ -117,8 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     counterCart();
 
-
-
     const boxActiveList = [...document.getElementsByClassName('box-event-active')];
     const buttonsAll = (buttons) => {
         for (const button of buttons) {
