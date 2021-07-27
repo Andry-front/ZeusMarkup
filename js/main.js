@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const marketplaceStyle = './styles/css/marketplace/marketplace.css';
+    const marketplaceStyle = '../styles/css/marketplace/marketplace.css';
+    const productPageStyle = '../styles/css/product-page/product-page.css';
 
     const addStyle = (aFile) => {
         const head = window.document.getElementsByTagName('head')[0]
@@ -21,6 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return newTag;
         };
         const addElemMarketplace = () => {
+            addStyle(marketplaceStyle);
+            mainContainer.prepend(H1);
+            H1.innerHTML = page;
+
             const productBox = createDOMElem('div','flex','product-box');
             H1.after(productBox);
 
@@ -28,6 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 `${sortSelectDOM}
                 ${toolsProductDOM}
                 ${productListDOM}`;
+        };
+        const addElementProductPage = () => {
+            addStyle(productPageStyle);
         }
 
         const newBody = createDOMElem('div','flex','body');
@@ -42,17 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
             ${modalCartDOM}`;
         document.getElementById('menu').after(mainContainer);
 
-        mainContainer.prepend(H1);
-        H1.innerHTML = page;
-
         switch (page) {
             case 'marketplace':
                 addElemMarketplace();
                 break;
+            case 'product page':
+                addElementProductPage();
+                break;
         }
     }
 
-    addStyle(marketplaceStyle);
+    addStyle(productPageStyle);
     renderPage(document.body.getAttribute('data-page'));
 
     const cartModal = () => {
@@ -116,6 +124,108 @@ document.addEventListener('DOMContentLoaded', () => {
         deleteCart();
     }
     counterCart();
+
+    const sliderProductPage = () => {
+        const frontPanel = document.querySelector('.photo-panel .front-image');
+        const listPhotoProduct = [...document.querySelectorAll('.photo-panel_list .panel_list_elem')];
+        const buttonList = [...document.querySelectorAll('.photo-panel_list-wrapper button')];
+        const panel = document.querySelector('.photo-panel_list-wrapper .wrapper');
+        const lengthPhoto = document.querySelectorAll('.panel_list_elem').length;
+
+        const eventScrollNext = (position) => {
+            panel.scroll({
+                left: (position + 116),
+                behavior: 'smooth'
+            })
+        }
+
+        const eventScrollPrev = (position) => {
+            panel.scroll({
+                left: (position - 116),
+                behavior: 'smooth'
+            })
+        }
+        const lengthPosition = (length,active) => {
+            const frontPhoto = document.querySelector('.photo-panel .front-image');
+            frontPhoto.setAttribute('data-length',`${active + 1} / ${length}`)
+        }
+
+        lengthPosition(lengthPhoto,0);
+
+        buttonList.forEach(button => {
+            button.addEventListener('click', ()=> {
+                const positionScroll = panel.scrollLeft;
+                const positionButton = button.getAttribute('data-position');
+
+                switch (positionButton) {
+                    case 'next':
+                        eventScrollNext(positionScroll);
+                        break;
+                    case 'prev':
+                        eventScrollPrev(positionScroll);
+                        break;
+                }
+            })
+        })
+
+        listPhotoProduct.forEach((itemPhoto, key) => {
+            itemPhoto.addEventListener('click', () => {
+                frontPanel.querySelector('img').setAttribute('src',itemPhoto.querySelector('img').getAttribute('src'));
+
+                lengthPosition(lengthPhoto,key);
+            });
+        })
+    };
+    sliderProductPage();
+
+    const tabsProductPage = () => {
+        const tabsButton = [...document.querySelectorAll('.headline-panel button')];
+        const contentPanelList = [...document.querySelectorAll('.content-panel .panel-item')];
+
+        const addActive = (arr,elem) => {
+            arr.forEach(item => {
+                item.classList.remove('active');
+            });
+            elem.classList.add('active');
+        }
+        const eventContentPanel = (position) => {
+            const activeElem = contentPanelList.find((item,key) => key === +position);
+            addActive(contentPanelList,activeElem);
+        };
+
+        tabsButton.forEach(button => {
+            button.addEventListener('click', () => {
+                const position = button.getAttribute('data-description');
+                eventContentPanel(position);
+                addActive(tabsButton,button);
+
+
+                const headlinePanel = document.querySelector('.description-panel .headline-panel');
+
+                switch (position) {
+                    case '0':
+                        headlinePanel.classList.add('active-0');
+                        headlinePanel.classList.remove('active-1');
+                        break;
+                    case '1':
+                        headlinePanel.classList.add('active-1');
+                        headlinePanel.classList.remove('active-0');
+                        break;
+                }
+            })
+        })
+    };
+    tabsProductPage();
+
+    const modalProductPhoto = () => {
+        const frontPhoto = document.querySelector('.photo-panel .front-image');
+
+        frontPhoto.addEventListener('click',() => {
+            console.log(frontPhoto);
+        })
+    };
+    modalProductPhoto();
+
 
     const boxActiveList = [...document.getElementsByClassName('box-event-active')];
     const buttonsAll = (buttons) => {

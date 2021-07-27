@@ -1,7 +1,7 @@
 const headerDOM = `<header class="container flex">
             <div class="logo">
                 <a href="/">
-                    <img src="./images/logo.png" alt="Logo">
+                    <img src="../images/logo.png" alt="Logo">
                 </a>
             </div>
 
@@ -28,7 +28,7 @@ const headerDOM = `<header class="container flex">
                 </div>
                 <div class="user">
                     <button class="flex">
-                        <img src="./images/user-icon.svg" alt="user">
+                        <img src="../images/user-icon.svg" alt="user">
                     </button>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const menuDOM = `<div id="menu" class="container">
                 <div class="categories-list">
                     <div class="headline_categories-list flex">
                         <div class="categories-list-icon flex">
-                            <img src="./images/categories-icon.svg" alt="Icon">
+                            <img src="../images/categories-icon.svg" alt="Icon">
                         </div>
                         <p>Category</p>
                     </div>
@@ -197,27 +197,27 @@ const footerDOM = `<footer>
                         <ul class="flex">
                             <li>
                                 <a href="https://www.youtube.com/" target="_blank">
-                                    <span><img src="./images/youtube-icon.svg" alt="Youtube"></span>
+                                    <span><img src="../images/youtube-icon.svg" alt="Youtube"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/" target="_blank">
-                                    <span><img src="./images/instagram-icon.svg" alt="Instagram"></span>
+                                    <span><img src="../images/instagram-icon.svg" alt="Instagram"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/" target="_blank">
-                                    <span><img src="./images/twitter-icon.svg" alt="Twitter"></span>
+                                    <span><img src="../images/twitter-icon.svg" alt="Twitter"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/" target="_blank">
-                                    <span><img src="./images/facebook-icon.svg" alt="Facebook"></span>
+                                    <span><img src="../images/facebook-icon.svg" alt="Facebook"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/" target="_blank">
-                                    <span><img src="./images/linkedin-icon.svg" alt="Linkedin"></span>
+                                    <span><img src="../images/linkedin-icon.svg" alt="Linkedin"></span>
                                 </a>
                             </li>
                         </ul>
@@ -259,12 +259,12 @@ const footerDOM = `<footer>
                         <ul class="flex">
                             <li>
                                 <a href="mailto:seazeus@support.mail.com">
-                                    <span><img src="./images/mail-to.svg" alt="Mail To"></span>
+                                    <span><img src="../images/mail-to.svg" alt="Mail To"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="tel:+123-000-0000">
-                                    <span><img src="./images/phone.svg" alt="Phone"></span>
+                                    <span><img src="../images/phone.svg" alt="Phone"></span>
                                 </a>
                             </li>
                         </ul>
@@ -285,7 +285,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                         </div>
 
                         <div class="close">
-                            <img src="./images/close-icon.svg" alt="Close">
+                            <img src="../images/close-icon.svg" alt="Close">
                         </div>
                     </div>
 
@@ -299,13 +299,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -351,7 +351,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -369,7 +369,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -415,7 +415,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -427,13 +427,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -479,7 +479,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -491,13 +491,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -543,7 +543,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -555,13 +555,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -607,7 +607,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -619,13 +619,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -671,7 +671,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -683,13 +683,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -735,7 +735,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -747,13 +747,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="../images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -799,7 +799,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="../images/basket.svg" alt="Basket">
                             </div>
                         </div>
                     </div>
@@ -827,7 +827,7 @@ const sortSelectDOM = `<div class="sort-select flex">
                             Sort by <span>Relevancy</span>
                         </p>
                         <div class="icon">
-                            <img src="./images/select-icon.svg" alt="">
+                            <img src="../images/select-icon.svg" alt="">
                         </div>
                         <ul class="select-list">
                             <li><a href="/">Relevancy</a></li>
@@ -844,20 +844,20 @@ const sortSelectDOM = `<div class="sort-select flex">
 const toolsProductDOM = `<div class="tools-panel">
                     <div class="headline_categories-list flex">
                         <div class="categories-list-icon flex">
-                            <img src="./images/categories-icon.svg" alt="Icon">
+                            <img src="../images/categories-icon.svg" alt="Icon">
                         </div>
                         <p>Category</p>
                     </div>
 
                     <ul>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
                     </ul>
                 </div>`;
 const productListDOM = `<div class="product-list flex">
@@ -870,7 +870,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="../images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -879,7 +879,253 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-list_elem-wrapper" data-id="4362">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box active box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="https://content1.rozetka.com.ua/goods/images/big_tile/144249735.jpg" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="333">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="4444">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="5555">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="6666">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="7777">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                    </div>
+                                    <div class="score-name">
+                                        <p>Jafza 17</p>
+                                    </div>
+                                </a>
+
+                                <div class="price-old">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+
+                                <div class="price">
+                                    <p><span class="currency">$ </span> 0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list_elem-wrapper" data-id="8888">
+                        <div class="product-list_elem">
+                            <div class="box-top">
+                                <div class="heart-box box-event-active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="transparent">
+                                        <path d="M3.85976 4.34249C5.33107 3.06898 7.62638 3.27576 9.02586 4.72053L9.385 4.37266L9.02586 4.72054L9.64108 5.35566L10.0002 5.72642L10.3594 5.35566L10.9746 4.72054L10.9746 4.72053C12.374 3.27579 14.6692 3.06898 16.1406 4.34241C17.8628 5.83301 17.9503 8.49691 16.3937 10.1049L16.3936 10.1051L10.3577 16.346L10.3576 16.346C10.1591 16.5513 9.83839 16.5513 9.63985 16.346L9.63984 16.346L3.60404 10.1052C2.05009 8.49724 2.13757 5.83317 3.85976 4.34249ZM3.85976 4.34249L3.53253 3.96444L3.85976 4.34249Z"/>
+                                    </svg>
+                                </div>
+                                <a href="/" class="img-wrapper flex">
+                                    <img src="../images/product-default.png" alt="Product name!!">
+                                </a>
+                            </div>
+                            <div class="box-bottom">
+                                <div class="name">
+                                    <a href="/">Bear Teddy Wonka Mashine</a>
+                                </div>
+                                <a href="/" class="score flex">
+                                    <div class="score-logo">
+                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
