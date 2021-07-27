@@ -1,7 +1,7 @@
 const headerDOM = `<header class="container flex">
             <div class="logo">
                 <a href="/">
-                    <img src="../images/logo.png" alt="Logo">
+                    <img src="./images/logo.png" alt="Logo">
                 </a>
             </div>
 
@@ -28,7 +28,7 @@ const headerDOM = `<header class="container flex">
                 </div>
                 <div class="user">
                     <button class="flex">
-                        <img src="../images/user-icon.svg" alt="user">
+                        <img src="./images/user-icon.svg" alt="user">
                     </button>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const menuDOM = `<div id="menu" class="container">
                 <div class="categories-list">
                     <div class="headline_categories-list flex">
                         <div class="categories-list-icon flex">
-                            <img src="../images/categories-icon.svg" alt="Icon">
+                            <img src="./images/categories-icon.svg" alt="Icon">
                         </div>
                         <p>Category</p>
                     </div>
@@ -197,27 +197,27 @@ const footerDOM = `<footer>
                         <ul class="flex">
                             <li>
                                 <a href="https://www.youtube.com/" target="_blank">
-                                    <span><img src="../images/youtube-icon.svg" alt="Youtube"></span>
+                                    <span><img src="./images/youtube-icon.svg" alt="Youtube"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/" target="_blank">
-                                    <span><img src="../images/instagram-icon.svg" alt="Instagram"></span>
+                                    <span><img src="./images/instagram-icon.svg" alt="Instagram"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/" target="_blank">
-                                    <span><img src="../images/twitter-icon.svg" alt="Twitter"></span>
+                                    <span><img src="./images/twitter-icon.svg" alt="Twitter"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.facebook.com/" target="_blank">
-                                    <span><img src="../images/facebook-icon.svg" alt="Facebook"></span>
+                                    <span><img src="./images/facebook-icon.svg" alt="Facebook"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/" target="_blank">
-                                    <span><img src="../images/linkedin-icon.svg" alt="Linkedin"></span>
+                                    <span><img src="./images/linkedin-icon.svg" alt="Linkedin"></span>
                                 </a>
                             </li>
                         </ul>
@@ -259,12 +259,12 @@ const footerDOM = `<footer>
                         <ul class="flex">
                             <li>
                                 <a href="mailto:seazeus@support.mail.com">
-                                    <span><img src="../images/mail-to.svg" alt="Mail To"></span>
+                                    <span><img src="./images/mail-to.svg" alt="Mail To"></span>
                                 </a>
                             </li>
                             <li>
                                 <a href="tel:+123-000-0000">
-                                    <span><img src="../images/phone.svg" alt="Phone"></span>
+                                    <span><img src="./images/phone.svg" alt="Phone"></span>
                                 </a>
                             </li>
                         </ul>
@@ -285,7 +285,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                         </div>
 
                         <div class="close">
-                            <img src="../images/close-icon.svg" alt="Close">
+                            <img src="./images/close-icon.svg" alt="Close">
                         </div>
                     </div>
 
@@ -299,13 +299,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -351,7 +351,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -369,7 +369,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -415,7 +415,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -427,13 +427,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -479,7 +479,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -491,13 +491,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -543,7 +543,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -555,13 +555,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -607,7 +607,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -619,13 +619,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -671,7 +671,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -683,13 +683,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -735,7 +735,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -747,13 +747,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="../images/product-default.png" alt="Product name!">
+                                <img src="./images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -799,7 +799,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="../images/basket.svg" alt="Basket">
+                                <img src="./images/basket.svg" alt="Basket">
                             </div>
                         </div>
                     </div>
@@ -827,7 +827,7 @@ const sortSelectDOM = `<div class="sort-select flex">
                             Sort by <span>Relevancy</span>
                         </p>
                         <div class="icon">
-                            <img src="../images/select-icon.svg" alt="">
+                            <img src="./images/select-icon.svg" alt="">
                         </div>
                         <ul class="select-list">
                             <li><a href="/">Relevancy</a></li>
@@ -844,20 +844,20 @@ const sortSelectDOM = `<div class="sort-select flex">
 const toolsProductDOM = `<div class="tools-panel">
                     <div class="headline_categories-list flex">
                         <div class="categories-list-icon flex">
-                            <img src="../images/categories-icon.svg" alt="Icon">
+                            <img src="./images/categories-icon.svg" alt="Icon">
                         </div>
                         <p>Category</p>
                     </div>
 
                     <ul>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="../images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
                     </ul>
                 </div>`;
 const productListDOM = `<div class="product-list flex">
@@ -870,7 +870,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -879,7 +879,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -914,7 +914,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -940,7 +940,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -949,7 +949,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -975,7 +975,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -984,7 +984,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1010,7 +1010,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1019,7 +1019,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1045,7 +1045,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1054,7 +1054,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1080,7 +1080,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1089,7 +1089,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1115,7 +1115,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="../images/product-default.png" alt="Product name!!">
+                                    <img src="./images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1124,7 +1124,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="../images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
