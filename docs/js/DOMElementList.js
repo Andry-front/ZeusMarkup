@@ -39,7 +39,8 @@ const headerDOM = `<header class="container flex">
 <!--            </div>-->
             <!--/ PANEL SING IN-->
         </header>`;
-const menuDOM = `<div id="menu" class="container">
+const menuDOM = `
+        <div id="menu" class="container">
             <div class="menu-wrapper flex">
                 <div class="categories-list">
                     <div class="headline_categories-list flex">
@@ -190,7 +191,8 @@ const menuDOM = `<div id="menu" class="container">
                 </div>
             </div>
         </div>`;
-const footerDOM = `<footer>
+const footerDOM = `
+        <footer>
             <div class="container flex">
                 <div class="panel-m">
                     <div class="social-box">
