@@ -737,7 +737,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="./docs/images/basket.svg" alt="Basket">
                             </div>
                         </div>
                         <div class="cart-item flex">
@@ -749,13 +749,13 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="img-wrapper flex">
-                                <img src="./images/product-default.png" alt="Product name!">
+                                <img src="./docs/images/product-default.png" alt="Product name!">
                             </div>
 
                             <div class="product-info-box">
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -801,7 +801,7 @@ const modalCartDOM = `<div id="modal-cart" class="flex">
                             </div>
 
                             <div class="basket-box">
-                                <img src="./images/basket.svg" alt="Basket">
+                                <img src="./docs/images/basket.svg" alt="Basket">
                             </div>
                         </div>
                     </div>
@@ -829,7 +829,7 @@ const sortSelectDOM = `<div class="sort-select flex">
                             Sort by <span>Relevancy</span>
                         </p>
                         <div class="icon">
-                            <img src="./images/select-icon.svg" alt="">
+                            <img src="./docs/images/select-icon.svg" alt="">
                         </div>
                         <ul class="select-list">
                             <li><a href="/">Relevancy</a></li>
@@ -846,20 +846,20 @@ const sortSelectDOM = `<div class="sort-select flex">
 const toolsProductDOM = `<div class="tools-panel">
                     <div class="headline_categories-list flex">
                         <div class="categories-list-icon flex">
-                            <img src="./images/categories-icon.svg" alt="Icon">
+                            <img src="./docs/images/categories-icon.svg" alt="Icon">
                         </div>
                         <p>Category</p>
                     </div>
 
                     <ul>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
-                        <li><a href="/"><span><img src="./images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
+                        <li><a href="/"><span><img src="./docs/images/tools-icon-default.svg" alt="Icon"></span> Tools</a></li>
                     </ul>
                 </div>`;
 const productListDOM = `<div class="product-list flex">
@@ -872,7 +872,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -881,7 +881,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -916,7 +916,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -942,7 +942,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -951,7 +951,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -977,7 +977,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -986,7 +986,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1012,7 +1012,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1021,7 +1021,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1047,7 +1047,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1056,7 +1056,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1082,7 +1082,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1091,7 +1091,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
@@ -1117,7 +1117,7 @@ const productListDOM = `<div class="product-list flex">
                                     </svg>
                                 </div>
                                 <a href="/" class="img-wrapper flex">
-                                    <img src="./images/product-default.png" alt="Product name!!">
+                                    <img src="./docs/images/product-default.png" alt="Product name!!">
                                 </a>
                             </div>
                             <div class="box-bottom">
@@ -1126,7 +1126,7 @@ const productListDOM = `<div class="product-list flex">
                                 </div>
                                 <a href="/" class="score flex">
                                     <div class="score-logo">
-                                        <img src="./images/score-logo-default.svg" alt="Score name!! logo">
+                                        <img src="./docs/images/score-logo-default.svg" alt="Score name!! logo">
                                     </div>
                                     <div class="score-name">
                                         <p>Jafza 17</p>
